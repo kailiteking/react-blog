@@ -1,0 +1,12 @@
+.logo {
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fixedHeader {
+    position: fixed;
+    width: 100%;
+    padding: 0 80px;
+    background-color: #fff;
+    z-index: 2;
+}
