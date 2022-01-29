@@ -25,7 +25,7 @@ function BlogLayout({children}: any): React.ReactElement {
             <Header />
             <Layout style={{marginTop: '80px'}}>
                 <Row style={{ width: '100%'}} justify="center" gutter={32}>
-                    <Col span={14}>
+                    <Col span={14} style={{ backgroundColor: '#fff' }}>
                         <Content>{children}</Content>
                     </Col>
                     <Col span={5}>
@@ -45,7 +45,7 @@ function BlogLayout({children}: any): React.ReactElement {
                                     }
                                 >
                                     <Meta
-                                    avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
+                                    avatar={<Avatar src="" />}
                                     title="Kailite"
                                     description="This is the description"
                                     />
